@@ -1,1 +1,2 @@
-# elasticstack
+# js-elasticStack
+js-elasticStack

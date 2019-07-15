@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title> NS | js-elasticStack</title>
+		<meta name="description" content=""/>
+		<meta name="keywords" content="" />
+		<meta name="author" content=" Nuno Santos"/>
+		<link rel="stylesheet" type="text/css" media="screen" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+        <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+        <script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<header class="clearfix">
+				<span>JAVASCRIPT<span class="ns-icon ns-icon-about" data-content="ElastiStack é um pequeno script que permite navegar por uma pilha de itens arrastando o primeiro. Ele vem com um toque elástico, o que significa que ao arrastar o item mais superior, os outros seguirão como se estivessem conectados elasticamente. Ao atingir uma certa distância, o item arrastado será liberado e o próximo item será exibido. "></span></span>
+				<h1>ElastiStack com imagens  </h1>
+				<nav>
+                    <a href="https://nunosantoswebdesigner.github.io/js-topdf" class="ns-icon ns-icon-prev" data-info= Anterior"><span></span></a>
+					<a href="https://nunosantoswebdesigner.github.io/js-search" class="ns-icon ns-icon-next" data-info="Próximo"><span></span></a>
+					<a href="https://www.instagram.com/nunosantos_webdesigner/?hl=pt" target="_blank" class="ns-icon ns-icon-instagram" data-info="instagram"><span></span></a>
+					<a href="https://github.com/nunosantoswebdesigner" target="_blank" class="ns-icon ns-icon-github" data-info="github"><span></span></a>
+					<a href="mailto:nunosantoswebdesigner@gmail.com?Subject=Olá, tudo bem?" target="_top" class="ns-icon ns-icon-mail" data-info="email to nuno santos"><span></span></a>
+				</nav>
+            </header>
+            <ul id="elasticstack" class="elasticstack">
+				<li><img src="img/1.jpg" alt="01"/><h5>Saudade</h5></li>
+				<li><img src="img/2.jpg" alt="02"/><h5>Tuqburni</h5></li>
+				<li><img src="img/3.jpg" alt="03"/><h5>Retrouvailles</h5></li>
+				<li><img src="img/4.jpg" alt="04"/><h5>Onsra</h5></li>
+				<li><img src="img/5.jpg" alt="05"/><h5>Mamihlapinatapai</h5></li>
+				<li><img src="img/6.jpg" alt="06"/><h5>Koi No Yokan</h5></li>
+			</ul> 
+            <p id="info" class="info"> Powerd by <a class="ns" href="https://nunosantos.ml"> © Nuno Santos 2019 </a></p>
+        </div>
+        <script src="js/draggabilly.pkgd.min.js"></script>
+		<script src="js/elastiStack.js"></script>
+		<script>
+			new ElastiStack( document.getElementById( 'elasticstack' ) );
+		</script>
+        <script src="js/main.js"></script>
+	</body>
+</html>
